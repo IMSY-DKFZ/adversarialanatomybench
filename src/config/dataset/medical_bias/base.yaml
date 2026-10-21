@@ -1,0 +1,21 @@
+defaults:
+  - _self_
+
+name: medical_bias
+data_path: ./data
+images_path: ./images
+questions_file: questions.csv
+images_file: images.csv 
+mapping_file: mapping.csv
+
+#Question prefix and suffix
+question_prefix: ""  # Text to prepend to questions
+question_suffix: ""  # Text to append to questions
+
+# Question specifications
+use_question_specifications: true
+question_specifications:
+  Counting: "Answer only with a single numeric value, e.g. \"5\", written as an integer. Do not include any additional text."
+  Binary: "Answer only with exactly either \"True\" or \"False\". Do not include any additional text."
+  LeftRight: "Answer only with exactly the word \"Left\" or \"Right\". Do not include any additional text."
+  Finger: "Answer only with exactly one of the following: \"Thumb\", \"Index\", \"Middle\", \"Ring\", or \"Pinky\". Do not include any additional text"

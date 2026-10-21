@@ -1,0 +1,7 @@
+#config/model/vlm/xAI/grok4.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: openrouter.OpenRouter
+hf_id: x-ai/grok-4

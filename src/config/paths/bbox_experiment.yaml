@@ -1,0 +1,3 @@
+vlm:
+  result_save_path: vlm_outputs/bbox_experiment
+  print_inference_outputs: True

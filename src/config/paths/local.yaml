@@ -1,0 +1,4 @@
+#config/paths/local.yaml
+vlm:
+  result_save_path: vlm_outputs/local
+  print_inference_outputs: True

@@ -1,0 +1,7 @@
+#config/model/vlm/openrouter/llama/llama4_maverick.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: openrouter.OpenRouter
+hf_id: meta-llama/llama-4-maverick

@@ -1,0 +1,7 @@
+#config/model/vlm/gemma/gemma3_4b.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: gemma.Gemma3
+hf_id: google/medgemma-4b-it

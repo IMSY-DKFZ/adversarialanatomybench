@@ -1,0 +1,8 @@
+#config/model/vlm/openrouter/gpt5_mini_medium.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: openrouter.OpenRouter
+hf_id: openai/gpt-5-mini
+reasoning_effort: "medium"

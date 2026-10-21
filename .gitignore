@@ -1,0 +1,16 @@
+# Benchmark data and images are not redistributed; see README for how to obtain them
+data/
+hf_dataset/
+images/
+images_with_bboxes/
+
+# API keys
+api_keys.env
+
+# Model runs and Python artefacts
+reproduction_runs/
+vlm_outputs/
+__pycache__/
+*.pyc
+experiment_logs/
+outputs/

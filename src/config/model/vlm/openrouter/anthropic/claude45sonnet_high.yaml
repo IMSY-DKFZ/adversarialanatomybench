@@ -1,0 +1,8 @@
+#config/model/vlm/openrouter/claude45sonnet_high.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: openrouter.OpenRouter
+hf_id: anthropic/claude-4.5-sonnet
+reasoning_max_tokens: 24576

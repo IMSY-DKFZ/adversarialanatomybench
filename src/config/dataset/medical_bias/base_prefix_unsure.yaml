@@ -1,0 +1,10 @@
+defaults:
+  - medical_bias/base@_here_
+  - _self_
+
+metatask_id: base_prefix_unsure
+
+#Question prefix and suffix
+question_prefix: "Answer the following question based on the attached medical image: "
+question_suffix: " However, if you are unsure, you may answer \"Unsure\"."
+

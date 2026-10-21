@@ -1,0 +1,11 @@
+metatask_id: baseline
+dataset_name: medical_bias
+
+# Batch size for parallel API calls (OpenRouter models)
+batch_size: 50
+
+# Dynamic image resizing for inference
+image_processing:
+  resize:
+    enabled: true
+    max_size: 1024  # Maximum dimension in pixels (width or height)

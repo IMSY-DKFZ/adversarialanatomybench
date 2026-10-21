@@ -1,0 +1,7 @@
+#config/model/vlm/medmo/medmo_4b.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: qwen3vl.Qwen3VL
+hf_id: MBZUAI/MedMO-4B

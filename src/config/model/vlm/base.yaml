@@ -1,0 +1,13 @@
+# conf/model/vlm/base.yaml
+defaults:
+  - _self_
+
+device: cuda:0
+attn_impl: sdpa  # "flash-attn" uses FlashAttention 2 (needs the flash-attn package; used for the paper)
+temperature: 0.0
+max_new_tokens: 32000
+do_sample: False
+
+# Reasoning parameters (for OpenRouter)
+reasoning_effort: null  # "low", "medium", "high" for GPT-5, Claude
+reasoning_max_tokens: null  # number or null; for Gemini use fraction of max_new_tokens

@@ -1,0 +1,18 @@
+input: null
+bbox_results_dir: vlm_outputs/bbox_experiment
+output_dir: results/bbox # metrics CSVs
+annotated_images_dir: images_with_bboxes/annotated_images # only written when images/ is present
+print_outside_limit: 10
+bbox_coord_order: xyxy # xyxy or yxyx
+bbox_value_mode: normalized_1000 #absolute_pixels or normalized_1000
+compare_with_exp1: true
+exp1_input: null
+exp1_metatask_id: base_prefix
+exp1_results_base_path: vlm_outputs/local
+n_bootstrap_resamples: 1000
+debug: false
+
+hydra:
+  run:
+    dir: .
+  output_subdir: null

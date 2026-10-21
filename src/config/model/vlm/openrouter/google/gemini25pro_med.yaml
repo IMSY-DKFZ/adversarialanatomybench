@@ -1,0 +1,8 @@
+#config/model/vlm/openrouter/gemini25pro_med.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: openrouter.OpenRouter
+hf_id: google/gemini-2.5-pro
+reasoning_max_tokens: 8192

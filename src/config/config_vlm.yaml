@@ -1,0 +1,9 @@
+# config/config_vlm.yaml
+defaults:
+  - dataset: medical_bias/base_prefix
+  - model: vlm/openrouter/openai/gpt5_medium
+  - vlm: medical_bias
+  - paths: local
+  - _self_
+
+seed: 0

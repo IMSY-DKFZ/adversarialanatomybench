@@ -1,0 +1,7 @@
+#config/model/vlm/medmo/medmo_8b_next.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: qwen3vl.Qwen3VL
+hf_id: MBZUAI/MedMO-8B-Next

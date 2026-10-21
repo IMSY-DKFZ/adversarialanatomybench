@@ -1,0 +1,7 @@
+#config/model/vlm/openrouter/mistralai/mistral_medium_3_1.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: openrouter.OpenRouter
+hf_id: mistralai/mistral-medium-3.1

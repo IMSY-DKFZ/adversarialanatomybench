@@ -1,0 +1,8 @@
+defaults:
+  - medical_bias/base@_here_
+  - _self_
+
+metatask_id: leading_prefix
+
+#Question prefix and suffix
+question_prefix: "You are a medical expert. Answer the following question solely based on the attached medical image, keeping in mind that it might contain rare cases or non-standard anatomy: "

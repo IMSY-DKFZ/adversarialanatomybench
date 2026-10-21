@@ -1,0 +1,7 @@
+#config/model/vlm/openrouter/zai/glm_45v.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: openrouter.OpenRouter
+hf_id: z-ai/glm-4.5v

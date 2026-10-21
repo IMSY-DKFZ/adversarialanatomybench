@@ -1,0 +1,7 @@
+#config/model/vlm/openrouter/qwen3vl_30b.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: openrouter.OpenRouter
+hf_id: qwen/qwen3-vl-30b-a3b-instruct

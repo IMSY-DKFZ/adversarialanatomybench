@@ -1,0 +1,17 @@
+defaults:
+  - medical_bias/base@_here_
+  - _self_
+
+name: medical_bias_bbox
+metatask_id: bbox
+data_path: ./data
+images_path: ./images
+questions_file: questions.csv
+images_file: images_entities.csv
+mapping_file: mapping.csv
+
+bbox_experiment:
+  question_type_filter: Counting
+  prompt_template: "Detect every instance that belongs to the following categories: '{entity}'. The box_2d should be [ymin, xmin, ymax, xmax] normalized to 0-1000" #"Locate every instance that belongs to the following categories: '{entity}'. Report bbox coordinates in JSON format."
+  entity_column: entity
+  entity_separator: ";"

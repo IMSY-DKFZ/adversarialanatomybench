@@ -1,0 +1,7 @@
+#config/model/vlm/lingshu/lingshu_7b.yaml
+defaults:
+  - vlm/base@_here_
+  - _self_
+
+base_model: qwen2_5vl.Qwen2_5VL
+hf_id: lingshu-medical-mllm/Lingshu-7B

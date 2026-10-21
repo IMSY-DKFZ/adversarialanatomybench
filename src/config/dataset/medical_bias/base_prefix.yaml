@@ -1,0 +1,8 @@
+defaults:
+  - medical_bias/base@_here_
+  - _self_
+
+metatask_id: base_prefix
+
+#Question prefix and suffix
+question_prefix: "Answer the following question based on the attached medical image: "
